@@ -23,8 +23,8 @@ Project Description:
 
 ✨ Key Features
 
-📌 Transaction Classification and Budget Tracking
-
+📌 Transaction Classification and Budget Tracking                                                                                                    
+  
 📌 Categorizes manually entered transactions into predefined categories (e.g., 🍔 Food, 🚗 Transport, 🎭 Entertainment) using our ml model.                                                             
 📌 Provides budget suggestions based on user spending history.
 
@@ -150,7 +150,7 @@ follows:
 ![image](https://github.com/user-attachments/assets/9c8bca0d-d09e-4a25-9a5e-308fd6aaa9ec)
 ![image](https://github.com/user-attachments/assets/8af27356-1277-4364-8211-5dc086c7a745)
 
-#ML Model
+#ML Model for Classification of Transaction:
 ![image](https://github.com/user-attachments/assets/a76222e5-ccd7-4a71-b8ab-f5c4c3f42484)
 ![image](https://github.com/user-attachments/assets/0477f07f-a497-4f1b-8575-f25ea2d38caa)
 
