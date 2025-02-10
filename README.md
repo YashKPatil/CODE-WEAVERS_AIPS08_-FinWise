@@ -151,6 +151,7 @@ follows:
 ![image](https://github.com/user-attachments/assets/8af27356-1277-4364-8211-5dc086c7a745)
 
 #ML Model for Classification of Transaction:
+
 ![image](https://github.com/user-attachments/assets/a76222e5-ccd7-4a71-b8ab-f5c4c3f42484)
 ![image](https://github.com/user-attachments/assets/0477f07f-a497-4f1b-8575-f25ea2d38caa)
 
