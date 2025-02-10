@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Suggestions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 20px;
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+        h2 {
+            color: #007bff;
+        }
+        .ai-suggestions {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-line;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>📊 Personalized Financial Plan for {{ name }}</h2>
+    <p><strong>Monthly Salary:</strong> ₹{{ salary }}</p>
+    <p><strong>Total Savings:</strong> ₹{{ savings }}</p>
+    <p><strong>Total Expenses:</strong> ₹{{ total_spent }}</p>
+    <h3>📊 Category-Wise Spending</h3>
+<table border="1" style="width: 100%; text-align: left; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Total Amount (₹)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for category, amount in category_spending %}
+        <tr>
+            <td>{{ category }}</td>
+            <td>₹{{ amount }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+    <h3>🧾 AI-Generated Suggestions</h3>
+    <div class="ai-suggestions">
+        {{ ai_suggestions | safe }}
+    </div>
+
+    <h3>📋 General Investment Tips</h3>
+    <ul>
+        {% for tip in investment_tips %}
+            <li>{{ tip }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
